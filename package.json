@@ -53,6 +53,7 @@
     "webpack-bundle-analyzer": "^4.10.2"
   },
   "dependencies": {
+    "@evershop/s3_file_storage": "^2.0.0",
     "@types/react-slick": "^0.23.13",
     "@types/uuid": "^10.0.0",
     "uuid": "^13.0.0"
