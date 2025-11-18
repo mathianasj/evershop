@@ -3,7 +3,7 @@ WORKDIR /app
 RUN npm install -g npm@9
 COPY package*.json .
 COPY packages ./packages
-COPY packages/sample/themes ./themes
+COPY packages/create-evershop-app/sample/themes ./themes
 COPY extensions ./extensions
 COPY public ./public
 COPY media ./media
